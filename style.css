@@ -50,7 +50,7 @@ a:hover {
 /* content stylings */
 
 main {
-  width: 95%;
+  width: 100px;
   height: 500px;
   margin: 25px auto;
   display: flex;
@@ -58,15 +58,19 @@ main {
 }
 
 #left-panel {
-  width: 67.5%;
+  width: 100px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow:5;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+
 }
 
 .card {
   border: solid black 2px;
-  height: 25%;
+  height: 25px;
   padding: 15px;
 }
 
